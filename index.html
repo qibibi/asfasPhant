@@ -824,13 +824,6 @@
             </div>
         </div>
         <div class="game">
-            <img src="11.png" alt="CoinFlip Preview">
-            <div class="game-info">
-                <h3 id="game10-title">CoinFlip</h3>
-                <button id="game10-button" onclick="openGame('coin')">Open</button>
-            </div>
-        </div>
-        <div class="game">
             <img src="5.png" alt="Football X Preview">
             <div class="game-info">
                 <h3 id="game11-title">LuckyJet</h3>
@@ -1597,10 +1590,7 @@ function openGame(game) {
             ios: 'footx4/index.html',
             other: 'footx4/index.html'
         },
-        coin: {
-            ios: 'monetka8/index.html',
-            other: 'monetka8/index.html'
-        }
+        
     };
             var url = isIOS ? links[game].ios : links[game].other;
             window.location.href = url;
